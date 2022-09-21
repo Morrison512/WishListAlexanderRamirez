@@ -8,34 +8,36 @@
 
     <TextView
         android:id="@+id/itemNameTv"
-        android:layout_width="250dp"
-        android:layout_height="30dp"
+        android:layout_width="252dp"
+        android:layout_height="65dp"
         android:layout_marginStart="4dp"
         android:padding="5dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/itemPriceTv"
-        android:layout_width="100dp"
-        android:layout_height="25dp"
+        android:layout_width="108dp"
+        android:layout_height="51dp"
         android:padding="5dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toEndOf="@+id/itemNameTv"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/itemWebsiteTv"
-        android:layout_width="175dp"
-        android:layout_height="30dp"
+        android:layout_width="188dp"
+        android:layout_height="74dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="4dp"
         android:padding="5dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemPriceTv"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
